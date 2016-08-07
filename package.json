@@ -1,0 +1,22 @@
+{
+  "name": "htask6",
+  "version": "1.0.0",
+  "description": "msk shri infrastructure task",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ellaylone/htask6.git"
+  },
+  "author": "Ellaylone <heamik91@yandex.ru>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ellaylone/htask6/issues"
+  },
+  "homepage": "https://github.com/Ellaylone/htask6#readme",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}
