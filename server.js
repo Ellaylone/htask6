@@ -3,7 +3,7 @@
 let express = require('express')
 let app = express()
 
-app.set('port', 9000)
+app.set('port', (process.env.PORT || 5000));
 
 app.get('/', (req, res) => {
   console.time('render')
