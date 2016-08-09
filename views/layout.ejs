@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Случайное число фибоначчи</title>
+    <meta charset="utf8">
+    <meta name="viewport" content="width=device-width">
+    <link href="/style.css" rel="stylesheet"/>
+  </head>
+  <body>
+    <article class="fibonacci">
+      <header class="fibonacci__header">Число #<%= fibo.iterations %></header>
+      <section class="fibonacci__length">
+        <p>Длина: <%= fibo.length %></p>
+      </section>
+      <section class="fibonacci__number">
+        <p><%= fibo.number %></p>
+      </section class="fibonacci__time">
+      <footer>Время генерации: <%= fibo.ms %>ms</footer>
+    </article>
+  </body>
+</html>
