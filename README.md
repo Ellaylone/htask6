@@ -4,3 +4,5 @@
 [![bitHound Overall Score](https://www.bithound.io/github/Ellaylone/htask6/badges/score.svg)](https://www.bithound.io/github/Ellaylone/htask6)
 
 #### Логи
+
+С помощью команды `heroku logs --tail` можно вывести внутренние логи приложения, логи запросов, состояние сборки приложения.
