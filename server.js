@@ -11,12 +11,18 @@ app.set('port', (process.env.PORT || 5000))
 app.set('views', path.join(__dirname, 'views'))
 app.set('view engine', 'ejs')
 
+app.use(express.static(path.join(__dirname, 'public')))
+let rand = {
+  min: 1,
+  max: 8000
+}
+
 app.get('/', (req, res) => {
   console.time('render')
-  let randIteration = Math.floor(Math.random() * (4000 - 1 + 1) + 1)
+  let randIteration = Math.floor(Math.random() * (rand.max - rand.min + 1) + rand.min)
   let randFibonacci = fibonacci.iterate(randIteration)
   console.log(randFibonacci)
-  res.status(200).send({ fibo: randFibonacci })
+  res.render('layout', { fibo: randFibonacci })
   console.timeEnd('render')
 })
 

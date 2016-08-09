@@ -2,10 +2,11 @@
   "name": "htask6",
   "version": "1.0.0",
   "description": "msk shri infrastructure task",
-  "main": "index.js",
+  "main": "start.js",
   "scripts": {
     "test": "eslint ."
   },
+  "start": "start.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Ellaylone/htask6.git"
