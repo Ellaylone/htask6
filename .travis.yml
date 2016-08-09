@@ -1,0 +1,10 @@
+language: node_js
+node_js:
+- '6'
+- '6.1'
+- '6.2'
+deploy:
+  provider: heroku
+  app: immense-bayou-36533
+  api_key:
+    secure: D0X85S1F2FJ1d+UTYFHsZF716FkGW+7rj5WDD8CNaFzi7CrFpvocGW2rFlnXhR6dFXxhoC67FOSiJhrlLuyZp+b230dvDIKv1J7TBO0fXOZEXd2N8yyU79S4P1WB0r4HgPQcDUq7KJ5t7Vy2OWjE26+no4vFvP77l06yDQs/r4NNcv0f8WFcYsDwbhjs0r8i3bxr0fDAZSidOy7/sMkTNdcG4FMuJEsShR+W0w1NvXgfm8r1dtdoLQBkzeQIMisX6XFvz5OVKjHto7y3CbRa+CDm0sqGtyC6qA+rpTgCimLHzSFWy3kQiSLjwvbcxYXYqOQbjcddV1QnxyQYk7l6V3twaZ0bHAUMNf85abchW6UuxCR4BUhVY23FqFjBVYSl6Lv/teayQI6zAZA4H03t4GE3m5liEZrqNyrXA62ere18+h74biw+ojQekwtga/Def25tXgCvmb4+sM3DiCg5bCLoxx7wsGr3IBWgMxgCLhRvyImQpFfdmbe1hROjDH/o5Ey7pJ7uipmzPgI/qoxk/zBsuruNpCyTyj0ar0bzIrkKacffNY5yJuqiqS9nrsx6/OZgbfbGJv34HW332VtYjQQYZGUlcnzEfUkWAaXEobp4u/C4Utb8WDpP5Ksvnj/rsJIxc+rBlAtGasVtuUZou9EckTA5NpdbV22lXw5rPD8=
