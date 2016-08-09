@@ -21,9 +21,9 @@ app.get('/', (req, res) => {
   console.time('render')
   let randIteration = Math.floor(Math.random() * (rand.max - rand.min + 1) + rand.min)
   let randFibonacci = fibonacci.iterate(randIteration)
-  console.log(randFibonacci)
   res.render('layout', { fibo: randFibonacci })
   console.timeEnd('render')
+  console.log('iteration:', '#' + randIteration)
 })
 
 app.listen(app.get('port'), () => {
