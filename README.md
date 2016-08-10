@@ -7,5 +7,5 @@
 
 Команда `heroku logs` выводит логи. Выводится 3 типа логов:
 * Логи приложения, фильтр `--source app`
-* Системные логи, фильтр `--source heroku
+* Системные логи, фильтр `--source heroku`
 * Логи API, фильтр `--source heroku --dyno api`
