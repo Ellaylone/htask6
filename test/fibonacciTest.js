@@ -18,6 +18,7 @@ describe('fibonacci', () => {
   for (let i = 1; i <= 20; i++) {
     it('should return object', () => {
       let randFibonacci = fibonacci.iterate(i)
+      assert.isObject(randFibonacci, 'randFibonacci should be an object')
       assert.equal(randFibonacci.number, testResults[i - 1], 'generated number is wrong')
       assert.equal(randFibonacci.length, testResults[i - 1].toString().length, 'generated length is wrong')
       assert.equal(randFibonacci.iterations, i, 'number of iterations if wrong')
