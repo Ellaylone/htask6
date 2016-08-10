@@ -31,3 +31,5 @@
 Настроил облачный линтер BitHound, настроил мониторинг с помощью UptimeRobot. При создании пулл реквеста прогоняются автоматические тесты, и при их прохождении и принятии пулл реквеста происходит автоматический деплой в Heroku.
 
 ![UptimeRobot](https://cloud.githubusercontent.com/assets/4200528/17568559/02268856-5f4d-11e6-95d7-53d6974db8dc.jpg)
+
+![Pull Request](https://cloud.githubusercontent.com/assets/4200528/17568823/1c4092d0-5f4e-11e6-8c5a-6b5da70fd7bc.jpg)
